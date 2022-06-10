@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url('https://preview.uideck.com/items/saaspal/assets/img/hero/hero-bg.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.logo{
+   padding-left: 300px;
+   padding-top: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.nav-list{
+    display:inline-block ;
+}
+li{
+    list-style: none;
+}
+nav .nav-list ul{
+    display: flex;
+}
+nav .nav-list ul li{
+    padding-top: 20px;
+    padding-right: 90px;
+}
+.icon{
+    font-size: 40px;
+    color: darkblue;
+    padding-left: 80px;
+}
+.container{
+    gap: 20px;
+}
+.main-2{
+    display: flex;
+}
+.word{
+    padding-top: 190px;
+}
+.image{
+    padding-left: 50px;
+    padding-top: 90px;
+}
+/* .btn{
+    border:1px solid blue;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+} */
+.card{
+    padding: 40px;
+}
+.w-2{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+h1{
+    padding: 20px;
+}
+.main-3{
+    gap: 50px;
+    margin-left: 350px;
+    text-align: center;
+    justify-content: center;
+}
+.carousel-inner{
+    padding-left: 200px;
+}
+.carousel{
+    padding: 80px;
+}
